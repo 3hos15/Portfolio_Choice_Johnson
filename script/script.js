@@ -1,6 +1,5 @@
-console.log("Welkom!!!!!!!!!!!!!!!!!!!!!! :D");
+console.log("Welcome to my portfolio! :D");
 
-//Menu
 let theButton = document.querySelector("nav button");
 let theNav = document.querySelector("body > nav");
 
@@ -11,7 +10,6 @@ function toggleMenu() {
   theButton.classList.toggle("toonMenu")
 };
 
-//Sections naar voren halen als er in het menu wordt geklikt
 const navFilms = document.querySelector("nav ul li:nth-of-type(1) a");
 const navEten = document.querySelector("nav ul li:nth-of-type(2) a");
 const navInfo = document.querySelector("nav ul li:nth-of-type(3) a");
@@ -37,7 +35,6 @@ navNieuws.onclick = function() {
     toggleMenu();
 };
 
-//Sections naar voren halen bij het klikken op de section + line onder geselecteerde section in de nav
 const eersteSection = document.querySelector("section section:nth-of-type(1)");
 const tweedeSection = document.querySelector("section section:nth-of-type(2)");
 const derdeSection = document.querySelector("section section:nth-of-type(3)");
@@ -100,7 +97,6 @@ function makeSectionVierdeActive() {
 vierdeSection.onclick = makeSectionVierdeActive;
 
 
-//Sections naar voren halen bij het tabben in de linkjes
 const linksEersteSection = document.querySelectorAll('section section:nth-of-type(1) a')
 linksEersteSection.forEach(linkEersteSection =>{
     linkEersteSection.onfocus = makeSectionEersteActive;

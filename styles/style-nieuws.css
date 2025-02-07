@@ -1,0 +1,35 @@
+/* light green */
+
+section section:nth-of-type(3) div {
+    background-color: var(--color-nieuws);
+    padding: 2.5em 7.5em 2.5em 2.5em;
+}
+
+section section:nth-of-type(3) div h2, p {
+    color: black;
+}
+
+
+@media (max-width: 47.9em) {
+    section section:nth-of-type(3) {
+        left: 0;
+        display: block;
+        width: calc(100% - 2.5em / 2);
+    }
+    section section:nth-of-type(3) div {
+        background-color: var(--color-nieuws);
+        padding: 1em 1em 1em 1em;
+    }
+
+
+    section section:nth-of-type(3) div div button {
+        top: 283.5em;
+        left: 39%;
+    }
+    
+    section section:nth-of-type(3) div div button.smallButton {
+        top: 291em;
+        left: 7%;
+
+    }
+}

@@ -9,6 +9,24 @@ section section:nth-of-type(3) div h2, p {
     color: black;
 }
 
+section section:nth-of-type(3) div h3 {
+    font-size: 2em;
+}
+
+section section:nth-of-type(3) div ul {
+    padding: 0;
+}
+
+section section:nth-of-type(3) div li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+section section:nth-of-type(3) div img {
+    width: 130%;
+}
+
 
 @media (max-width: 47.9em) {
     section section:nth-of-type(3) {
@@ -22,14 +40,4 @@ section section:nth-of-type(3) div h2, p {
     }
 
 
-    section section:nth-of-type(3) div div button {
-        top: 283.5em;
-        left: 39%;
-    }
-    
-    section section:nth-of-type(3) div div button.smallButton {
-        top: 291em;
-        left: 7%;
-
-    }
 }

@@ -59,7 +59,7 @@ body > nav {
     justify-content: space-evenly;
     background-color: var(--color-background-nav);
     transition: .6s;
-    right: -14.6em;
+    right: -17.6em;
     top: -16.5em;
 
     height: fit-content; 

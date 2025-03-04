@@ -15,3 +15,14 @@ section section:nth-of-type(1) div p {
     color: white;
     width: 80%;
 }
+
+section section:nth-of-type(1) div ul {
+    padding-left: 1em;
+}
+
+section section:nth-of-type(1) div li {
+    text-decoration: none;
+    list-style-type: square;
+    color: white;
+
+}

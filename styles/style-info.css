@@ -13,4 +13,18 @@ section section:nth-of-type(4) div p {
     color: white;
 }
 
+section section:nth-of-type(4) div ul {
+    padding: 0;
+}
+
+section section:nth-of-type(4) div li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+section section:nth-of-type(4) div a {
+    color: white;
+
+}
 

@@ -1,12 +1,12 @@
 :root {
     color-scheme: light dark;
-    --color-background: light-dark(#ffffff,#000000);
+    --color-background: #000000;
     --color-background-nav:#000000;
     --color-buttonspan: #ffffff;
-    --color-logo: light-dark(#000000, #ffffff);
+    --color-logo: #ffffff;
     --color-films: #042A2B;
-    --color-eten: #6C82C4;
-    --color-nieuws: #73937E;
+    --color-eten: #576050;
+    --color-nieuws: #4A314D;
     --color-info: #260F26;
     --color-tekst: #000000;
     --color-nav-tekst: #ffffff;
@@ -289,13 +289,16 @@ p {
     font-family: 'aaux';
     width: 90%;
     margin-top: 0;
+    color: WHITE;
 }
 
 a {
     color: inherit;
 }
 
-
+h3 {
+    color: white;
+}
 
 a:focus {
     outline: 2px solid var(--color-hover);
@@ -317,6 +320,10 @@ nav a:focus {
 }
 
 
+main a {
+    color: white;
+    margin-bottom: 1em;
+}
 
 
 
@@ -439,3 +446,17 @@ nav a:focus {
     }
 }
 
+
+/* p {
+    font-family: "Oxygen", sans-serif;
+
+} */
+
+p, main a {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2em;
+}
+
+main a:hover {
+    color: chartreuse;
+}

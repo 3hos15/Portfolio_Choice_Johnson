@@ -1,16 +1,25 @@
 /* light green */
 
-section section:nth-of-type(3) div {
+section section:nth-of-type(3) div:not(.flex) {
     background-color: var(--color-nieuws);
     padding: 2.5em 7.5em 2.5em 2.5em;
 }
 
 section section:nth-of-type(3) div h2, p {
-    color: black;
+    color: WHITE;
+}
+
+section section:nth-of-type(3) div h2, h3 {
+    margin: 0;
+}
+
+section section:nth-of-type(3) div p {
+    width: 130%;
 }
 
 section section:nth-of-type(3) div h3 {
     font-size: 2em;
+    padding-top: 1em;
 }
 
 section section:nth-of-type(3) div ul {
@@ -23,11 +32,21 @@ section section:nth-of-type(3) div li {
 
 }
 
-section section:nth-of-type(3) div img {
+section section:nth-of-type(3) div img:not(.block) {
     width: 130%;
+    padding-top: 1em;
 }
 
+.block {
+    display: block;
+    width: 70%;
+    padding: 1em;
+}
 
+.flex {
+    display: flex;
+    padding: 0;
+}
 @media (max-width: 47.9em) {
     section section:nth-of-type(3) {
         left: 0;

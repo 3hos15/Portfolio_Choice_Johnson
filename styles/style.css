@@ -505,6 +505,9 @@ section section:nth-of-type(4) div {
         font-size: 1.5em;
         padding-top: 1em;
     }
+    .flex {
+        flex-direction: column;
 
+    }
 }
 

@@ -406,6 +406,10 @@ main a:hover {
         top: -11em;
     }
 
+    nav {
+        overflow: hidden;
+    }
+
     h1 {
         font-size: 1.9em;
     }

@@ -397,7 +397,7 @@ main a:hover {
 
     }
     nav {
-        position: absolute;
+        overflow-x: hidden;
     }
     
     body > nav a {

@@ -1,7 +1,7 @@
 /* dark green */
 
 section section:nth-of-type(1) div:not(.gallery) {
-    background-color: var(--color-films);
+    background-color: var(--color-hellothere);
     padding-left: 5em;
     padding-right: 5em;
     padding-bottom: 2.5em;

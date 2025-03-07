@@ -1,9 +1,10 @@
 /* purple */
 
 section section:nth-of-type(4) div {
-    background-color: var(--color-info);
+    background-color: var(--color-aboutme);
     padding: 2.5em 5em 2.5em 5em;
 }
+
 
 section section:nth-of-type(4) div h2 {
     color: white;

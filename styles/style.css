@@ -4,10 +4,10 @@
     --color-background-nav:#000000;
     --color-buttonspan: #ffffff;
     --color-logo: #ffffff;
-    --color-films: #042A2B;
-    --color-eten: #576050;
-    --color-nieuws: #4A314D;
-    --color-info: #260F26;
+    --color-hellothere: #042A2B;
+    --color-photography: #576050;
+    --color-mywork: #4A314D;
+    --color-aboutme: #260F26;
     --color-tekst: #000000;
     --color-nav-tekst: #ffffff;
     --color-hover: #ffffff; 
@@ -93,20 +93,20 @@ body > nav ul li:nth-of-type(4) a {
 }
 
 body > nav ul li:nth-of-type(1) a:hover {
-    color: var(--color-films);
+    color: var(--color-hellothere);
 
 }
 
 body > nav ul li:nth-of-type(2) a:hover {
-    color: var(--color-eten);
+    color: var(--color-photography);
 }
 
 body > nav ul li:nth-of-type(3) a:hover {
-    color: var(--color-info);
+    color: var(--color-aboutme);
 }
 
 body > nav ul li:nth-of-type(4) a:hover {
-    color: var(--color-nieuws);
+    color: var(--color-mywork);
 }
 
 
@@ -420,7 +420,7 @@ main a:hover {
         width: calc(100% - 2.5em / 2);
     }
     section section:nth-of-type(2) div {
-        background-color: var(--color-eten);
+        background-color: var(--color-photography);
         padding: 1em 1em 1em 1em; 
     }
 
@@ -430,7 +430,7 @@ main a:hover {
         width: calc(100% - 2.5em / 2);
     }
     section section:nth-of-type(3) div {
-        background-color: var(--color-nieuws);
+        background-color: var(--color-mywork);
         padding: 1em 1em 1em 1em;
     }
 

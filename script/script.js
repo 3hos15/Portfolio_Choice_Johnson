@@ -10,27 +10,27 @@ function toggleMenu() {
   theButton.classList.toggle("toonMenu")
 };
 
-const navFilms = document.querySelector("nav ul li:nth-of-type(1) a");
-const navEten = document.querySelector("nav ul li:nth-of-type(2) a");
-const navInfo = document.querySelector("nav ul li:nth-of-type(3) a");
-const navNieuws = document.querySelector("nav ul li:nth-of-type(4) a"); 
+const navhellothere = document.querySelector("nav ul li:nth-of-type(1) a");
+const navphotography = document.querySelector("nav ul li:nth-of-type(2) a");
+const navaboutme = document.querySelector("nav ul li:nth-of-type(3) a");
+const navmywork = document.querySelector("nav ul li:nth-of-type(4) a"); 
 
-navFilms.onclick = function() {
+navhellothere.onclick = function() {
     makeSectionEersteActive();
     toggleMenu();
 };
 
-navEten.onclick = function() {
+navphotography.onclick = function() {
     makeSectionTweedeActive();
     toggleMenu();
 };
 
-navInfo.onclick = function() {
+navaboutme.onclick = function() {
     makeSectionVierdeActive();
     toggleMenu();
 };
 
-navNieuws.onclick = function() {
+navmywork.onclick = function() {
     makeSectionDerdeActive();
     toggleMenu();
 };
@@ -46,10 +46,10 @@ function makeSectionEersteActive() {
     derdeSection.classList.remove("active");
     vierdeSection.classList.remove("active");
 
-    navFilms.classList.add("underline")
-    navEten.classList.remove("underline") 
-    navInfo.classList.remove("underline") 
-    navNieuws.classList.remove("underline")  
+    navhellothere.classList.add("underline")
+    navphotography.classList.remove("underline") 
+    navaboutme.classList.remove("underline") 
+    navmywork.classList.remove("underline")  
 };
 
 eersteSection.onclick = makeSectionEersteActive;
@@ -60,10 +60,10 @@ function makeSectionTweedeActive() {
     derdeSection.classList.remove("active");
     vierdeSection.classList.remove("active");
 
-    navFilms.classList.remove("underline")
-    navEten.classList.add("underline") 
-    navInfo.classList.remove("underline") 
-    navNieuws.classList.remove("underline") 
+    navhellothere.classList.remove("underline")
+    navphotography.classList.add("underline") 
+    navaboutme.classList.remove("underline") 
+    navmywork.classList.remove("underline") 
 };
 
 tweedeSection.onclick = makeSectionTweedeActive;
@@ -74,10 +74,10 @@ function makeSectionDerdeActive() {
 	tweedeSection.classList.remove("active");
     vierdeSection.classList.remove("active");
 
-    navFilms.classList.remove("underline")
-    navEten.classList.remove("underline") 
-    navInfo.classList.remove("underline") 
-    navNieuws.classList.add("underline") 
+    navhellothere.classList.remove("underline")
+    navphotography.classList.remove("underline") 
+    navaboutme.classList.remove("underline") 
+    navmywork.classList.add("underline") 
 };
 
 derdeSection.onclick = makeSectionDerdeActive;
@@ -88,10 +88,10 @@ function makeSectionVierdeActive() {
 	tweedeSection.classList.remove("active");
     derdeSection.classList.remove("active"); 
 
-    navFilms.classList.remove("underline")
-    navEten.classList.remove("underline") 
-    navInfo.classList.add("underline") 
-    navNieuws.classList.remove("underline") 
+    navhellothere.classList.remove("underline")
+    navphotography.classList.remove("underline") 
+    navaboutme.classList.add("underline") 
+    navmywork.classList.remove("underline") 
 };
 
 vierdeSection.onclick = makeSectionVierdeActive;

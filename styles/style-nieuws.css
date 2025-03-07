@@ -8,18 +8,23 @@ section section:nth-of-type(3) div:not(.flex) {
 section section:nth-of-type(3) div h2, p {
     color: WHITE;
 }
+section section:nth-of-type(3) div h2 {
+    padding-top: 1em;
+}
 
 section section:nth-of-type(3) div h2, h3 {
     margin: 0;
+    font-family: "Syne", sans-serif;
+
 }
 
 section section:nth-of-type(3) div p {
-    width: 130%;
+    width: 100%;
+    padding-top: .5em;
 }
 
 section section:nth-of-type(3) div h3 {
     font-size: 2em;
-    padding-top: 1em;
 }
 
 section section:nth-of-type(3) div ul {
@@ -33,7 +38,7 @@ section section:nth-of-type(3) div li {
 }
 
 section section:nth-of-type(3) div img:not(.block) {
-    width: 130%;
+    width: 100%;
     padding-top: 1em;
 }
 
@@ -46,7 +51,16 @@ section section:nth-of-type(3) div img:not(.block) {
 .flex {
     display: flex;
     padding: 0;
+    width: 70%;
 }
+
+.sidework {
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 6em;
+    right: .5em;
+}
+
 @media (max-width: 47.9em) {
     section section:nth-of-type(3) {
         left: 0;

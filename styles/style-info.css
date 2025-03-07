@@ -28,3 +28,16 @@ section section:nth-of-type(4) div a {
 
 }
 
+section section:nth-of-type(4) div img {
+    width: 50%;
+    border-radius: 2px;
+    padding-bottom: 1em;
+}
+
+.sideabout {
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 4em;
+    right: -0.5em;
+}
+

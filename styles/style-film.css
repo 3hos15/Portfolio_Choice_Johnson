@@ -1,6 +1,6 @@
 /* dark green */
 
-section section:nth-of-type(1) div {
+section section:nth-of-type(1) div:not(.gallery) {
     background-color: var(--color-films);
     padding-left: 5em;
     padding-right: 5em;
